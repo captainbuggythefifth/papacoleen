@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 18, 2016, 6:34:26 PM
+    Author     : Web Designer
+*/
+
+body{
+    background: url(/images/6815308-wedding-pictures.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+/*    height: 700px;*/
+}
+.custom-navbar-bar{
+    background-color: transparent !important;
+}
+.content-container{
+    position: absolute;
+    top: 240px;
+    width: 100%;
+}
+.navbar-brand{
+    padding: 0;
+}
+.navbar-brand img{
+    width: 94px
+}
+.navbar .navbar-nav>li>a{
+    color: #777
+}
+.welcome-message-container{
+    background-color: pink;
+    opacity: 0.5;
+    border: 5px solid wheat;
+    height: 200px;
+}
+.welcome-message{
+    left: 150px;
+    position: absolute;
+    top: 50px;
+    text-align: center
+}
+.welcome-span{
+    color: whitesmoke;
+    
+}
+.welcome-span-first{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 100
+}
+.welcome-span-second{
+    font-style: inherit;
+    font-size: 50px;
+    font-weight: 900;
+}
+.carousel-inner {
+    max-height: 600px
+}
+.team-container{
+    background-color: #F48FB1; 
+    height: auto
+}
+.memories-container{
+    height: 700px; background-color: beige; margin-top: 300px;
+    border-top: 10px solid pink;
+    border-bottom: 10px solid pink;
+}
+.custom-img-thumbnail{
+    width: 220px;
+    margin-top: 50px;
+}
+.thumbnail{
+    background-color: #F8BBD0 !important;
+    border: 4px solid wheat !important;
+    border-radius: 0;
+}
+.custom-fa{
+    padding-top: 15px
+}
+.custom-btn-facebook i{
+    color: #3B579D
+}
+.custom-btn-twitter i{
+    color: #00B6F1
+}
+.custom-btn-instagram i{
+    color: black
+}
+.caption{
+    text-align: center
+}
+.custom-btn{
+    margin: 10px !important;
+}
+.carousel-indicators .active{
+    background-color: #F48FB1;
+    width: 22px;
+    height: 22px;
+}
+.carousel-indicators{
+    display: inline-block;
+    width: 10px;
+}
+.carousel-indicators li{
+    width: 20px;
+    height: 20px;
+}
+.no-padding-lg-md{
+    padding-left: 0;
+    padding-right: 0
+}
+.padding-3px{
+    padding: 3px;
+}
+.services-container{
+    background-color: #E5E7E1;
+    min-height: 800px;
+    border-top: 10px solid pink;
+    border-bottom: 10px solid pink;
+}
