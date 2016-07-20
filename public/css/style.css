@@ -64,10 +64,12 @@ body{
 }
 .team-container{
     background-color: #F48FB1; 
-    height: auto
+    height: auto;
+    border-bottom: 10px solid pink;
 }
 .memories-container{
-    height: 700px; background-color: beige; margin-top: 300px;
+    height: auto;
+    background-color: beige; margin-top: 300px;
     border-top: 10px solid pink;
     border-bottom: 10px solid pink;
 }
@@ -110,6 +112,8 @@ body{
 .carousel-indicators li{
     width: 20px;
     height: 20px;
+    background-color: wheat;
+    border: none;
 }
 .no-padding-lg-md{
     padding-left: 0;
@@ -124,3 +128,51 @@ body{
     border-top: 10px solid pink;
     border-bottom: 10px solid pink;
 }
+
+.contact-us-container{
+    border-bottom: 10px solid pink;
+    padding-bottom: 50px;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  
+  border-bottom: 300px solid red;
+  opacity: 0.5
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  
+  border-top: 300px solid red;
+  opacity: 0.5
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .welcome-message{
+        left: 0;
+    }
+    .welcome-message-container{
+        height: 380px;
+    }
+    .content-container{
+        top: 170px;
+    }
+    .memories-container{
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){  }
+
+@media only screen and (min-width: 768px) and (max-width: 991px){  }
+
+@media only screen and (min-width: 992px) and (max-width: 1999px){  }

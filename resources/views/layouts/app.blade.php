@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="/css/bootstrap-material-design.min.css"/>
     <link rel="stylesheet" href="/css/ripples.css"/>
     <link rel="stylesheet" href="/css/style.css"/>
+    
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <style>
@@ -81,9 +84,16 @@
     <div class="content-container">
     @yield('content')
     </div>
-    <!-- JavaScripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" integrity="sha384-I6F5OKECLVtK/BL+8iSLDEHowSAfUo76ZL9+kGAgTRdiByINKJaqTPH/QVNS1VDb" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
+    
+     <script src="/js/jquery.min.js"></script>
+     <script src="/js/bootstrap.min.js"></script>
+     <script src="/js/material.min.js"></script>
+     <script src="/js/ripples.min.js"></script>
+     
+     <script>
+         $(function () {
+            $.material.init();
+         });
+     </script>
 </body>
 </html>

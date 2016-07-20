@@ -137,14 +137,97 @@
 <div class="services-container container-fluid">
     <div class="col-md-12" style="margin-top: 50px; text-align: center">
         <span class="welcome-span welcome-span-first" style="color:palevioletred; font-weight: 300">SERVICES</span>
+        <p>
+        <span class="welcome-span welcome-span-first" style="color:palevioletred; font-weight: 300">Our services range from Birthday, Teas, Christmas Parties, Marriage, Custom Invitation Cards and Giveaways, and everything in between. Ping us, we will share our ideas together. </span>
+        </p>
     </div>
     <div class="services-note-container">
         <div class="col-md-12" style="margin-top: 50px; text-align: right">
             <span class="welcome-span welcome-span-first" style="color:palevioletred; font-weight: 300; font-size: 20px">Business is an option, FRIENDSHIP is EVERYTHING. Get to know us, we will talk about the price ;)</span>
         </div>
     </div>
+    <div class="col-md-6 col-md-offset-5">
+            
+            <img src="/images/h_vector40.png" style="width: 250px;"/>
+        </div>
 </div>
-<div class="footer-container">
-    
+<div class="contact-us-container">
+    <div class="container">
+        <div class="col-md-12" style="margin-top: 50px; text-align: center">
+            <span class="welcome-span welcome-span-first" style="color:whitesmoke; font-weight: 300">CONTACT US</span>
+            <p>
+                <span class="welcome-span welcome-span-first" style="color:palevioletred; font-weight: 300">"You can have brilliant ideas, but if you can't get them across, your ideas won't get anywhere - Lea Iacocca"</span>
+            </p>
+            <p>
+                <span class="welcome-span welcome-span-first" style="color:palevioletred; font-weight: 300">"You can have brilliant ideas, but if you can't get them across, your ideas won't get anywhere - Lea Iacocca"</span>
+            </p>
+        </div>
+        <div class="col-md-6 col-md-offset-3" style="background-color: white; margin-top: 50px">
+
+
+            <form class="form-horizontal" style="margin-top: 50px">
+                <div class="col-sm-10 col-md-offset-1">
+                    <div class="form-group">
+                        <label for="email" class="col-md-2 control-label">Email</label>
+
+                        <div class="input-group">
+                            <input type="email" name="email" class="form-control" id="email" >
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-fab btn-fab-mini">
+                                    <i class="material-icons">functions</i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name" class="col-md-2 control-label">Name</label>
+
+                        <div class="input-group">
+                            <input type="text" name="name" class="form-control" id="fullname" >
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-fab btn-fab-mini">
+                                    <i class="material-icons">face</i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject" class="col-md-2 control-label">Subject</label>
+
+                        <div class="input-group">
+                            <input type="text" name="subject" class="form-control" id="subject" >
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-fab btn-fab-mini">
+                                    <i class="material-icons">add_circle</i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="col-md-2 control-label">Message</label>
+
+                        <div class="col-md-12">
+                            <textarea class="form-control" name="message" rows="3" id="message"></textarea>
+                            <span class="help-block">Please include in everything you can think of!</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                    <button type="submit" class="btn btn-raised btn-lg btn-block">submit</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="footer-container" style="background-color: white">
+    <div class="container">
+        <div class="col-md-6 col-md-offset-5">
+            <div class="arrow-up"></div>
+            <div class="arrow-down"></div>
+        </div>
+    </div>
 </div>
 @endsection
